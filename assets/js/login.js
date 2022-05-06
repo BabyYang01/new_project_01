@@ -80,7 +80,7 @@ $(function () {
                 let token = res.token
                 localStorage.setItem('token',token)
                 // 跳转到后台主页
-                //location.href = '/index.html'
+                location.href = '/index.html'
                 
 
             }
